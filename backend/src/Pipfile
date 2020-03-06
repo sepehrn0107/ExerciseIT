@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django-allauth = "*"
+django-cors-headers = "*"
+django-rest-auth = "*"
+djangorestframework = "*"
+oauthlib = "*"
+pylint = "*"
+requests = "*"
+requests-oauthlib = "*"
+sqlparse = "*"
+urllib3 = "*"
+Django = "*"
+
+[requires]
+python_version = "3.8"

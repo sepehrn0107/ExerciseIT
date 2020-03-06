@@ -1,0 +1,11 @@
+Django
+django-allauth
+django-cors-headers
+django-rest-auth
+djangorestframework
+oauthlib
+pylint
+requests
+requests-oauthlib
+sqlparse
+urllib3

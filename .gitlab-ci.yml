@@ -1,0 +1,8 @@
+image: python:3.8
+test:
+  script:
+    - cd backend/src
+    - pip3 install pipenv
+    - pipenv install
+    - pipenv graph
+    - pipenv run python manage.py test
