@@ -1,20 +1,12 @@
-# 08
+# Backend
+Using Django and sqlite to manage the backend data storage and api.
+* requirements:
+python, pipenv
+* navigate to src in backend, type pip install pipenv, then pipenv shell, the pipenv install, then python manage.py runserver
+# Frontend
+Using React 
+* requiremnts: Node JS
+* navigate to gui in frontend, type yarn install and yarn start
 
-install python, pip, react, yarn
-
-* running enviroment:
-** pip install pipenv
-** pipenv shell
-** pipenv install django
-** pip install django djangorestframework django-cors-headers
-** pipenv install djangorestframework
-** pipenv install djangorestframework-jwt
-** Navigate to backend using command, type "python manage.py runserver"
-
-* running frontend:
-** npm install
-** npm install bootstrap
-** npm install react-bootstrap bootstrap
-** npm install react-hook-form
-** npm install react-router-dom
-** yarn start
+# purpose
+this is initially a school project where the goal is to make a web application similar to instagram where yo can see other users posts for exercises, search for exerises and to put exercises. 
